@@ -1,0 +1,86 @@
+/**
+* Schedule section
+**/
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #b5b5b5;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #b5b5b5;
+}
+section.schedule span {
+  color: #666;
+}
+section.schedule h2 {
+  margin-top: 0;
+  font-size: 30px;
+}
+.table-responsive table {
+  background: #ffffff;
+}
+.table-responsive tr th {
+  color: #222222;
+  font-weight: 500;
+}
+.table-responsive tr td a:not([href]):not([tabindex]) {
+  color: #fff9f9;
+  font-weight: 500;
+}
+.table-responsive tr .special,
+.table-responsive tr .special a:not([href]):not([tabindex]){
+	background-color: #ffffff;
+	color: #219ed3;
+}
+.table td,
+.table td.multi {
+    padding: 0.25rem;
+    vertical-align: top;
+	text-align: center;
+}
+.table td.multi>table {
+  width: 100%;
+  padding: 0;
+}
+.table td.multi>table td {
+    border: none;
+}
+.table-responsive tr .closed>a:not([href]):not([tabindex]){
+	color: #000;
+    font-weight: 500;
+}
+.lnj {
+  background-color: #6200ea
+}
+.tkd {
+  background-color: #dd3333;
+}
+.kb {
+  background-color: #efbd32;
+}
+.bx {
+  background-color: #0800a0;
+}
+.bjj {
+  background-color: #25bfea;
+}
+.kmma{
+  background-color: #ff5722;
+}
+.fit {
+  background-color: #499300;
+}
+.wmns{
+  background-color: #23c4a4;
+}
+
+@media (min-width: 768px) {
+  section.schedule .badges .badge-link {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  section.schedule h2 {
+    font-size: 70px;
+  }
+}
